@@ -1,0 +1,6 @@
+{% import_yaml "projects/defaults.yaml" as defaults %}
+
+{% set lookup = salt['pillar.get']('projects:lookup', default={}, merge=True) %}
+{% do defaults.projects.update(lookup) %}
+
+{% set projects = salt['pillar.get']('projects', default=defaults['projects'], merge=True) %}

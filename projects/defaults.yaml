@@ -1,0 +1,9 @@
+projects:
+
+  lookup:
+    root_dir: /srv/projects/
+    project_clone_subdir: repo/
+    ssh_key: /root/.ssh/id_rsa
+    ssh_key_pub: /root/.ssh/id_rsa.pub
+
+  projects: ~

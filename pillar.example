@@ -1,0 +1,13 @@
+projects:
+
+  lookup:
+    root_dir: /vagrant/projects/
+    ssh_key: /home/ubuntu/.ssh/id_rsa
+    ssh_key_pub: /home/ubuntu/.ssh/id_rsa.pub
+
+  projects:
+    renoirb:
+      origin: https://github.com/renoirb/site
+      branch: master
+      pkgs:
+      - nodejs

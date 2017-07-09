@@ -1,0 +1,9 @@
+name: projects
+os: Debian, Ubuntu
+os_family: Debian
+version: 201707
+release: 1
+minimum_version: 2016.11
+summary: Formula for managing packaging for multiple modules
+description: Formula for managing module release lifecycle from cloning, pulling dependencies to packaging
+top_level_dir: projects
